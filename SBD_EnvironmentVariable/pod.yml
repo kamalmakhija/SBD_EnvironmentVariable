@@ -20,4 +20,7 @@ spec:
           imagePullPolicy: Always
           env:
              - name: TEST_ENV_VAR
-               value: "value1"
+               valueFrom : 
+                 configMapKeyRef :
+                    name : sb-config
+                    key : configFirstKey
