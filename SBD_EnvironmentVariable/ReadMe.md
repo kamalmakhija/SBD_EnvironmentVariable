@@ -6,4 +6,7 @@
 6. There are three ways in which we can pass environment variable using docker-compose.yaml file
 7. I have implemented all three ways in three branches
 8. Please refer Tech-Notes-Yahoo => Docker => Environment Variable Docker
-9. Please also refer Tech-Notes-Yahoo => Github = > Project 7 :: Spring Boot With Environment Variable 
+9. Please also refer Tech-Notes-Yahoo => Github = > Project 7 :: Spring Boot With Environment Variable
+10. Here we also used K8S for Accessing Env Variables.
+11. Three approaches are being used for K8S. Two for ConfigMap.yaml Files and one for Secret.yaml file.
+
