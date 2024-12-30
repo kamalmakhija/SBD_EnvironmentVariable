@@ -21,6 +21,6 @@ spec:
           env:
              - name: TEST_ENV_VAR
                valueFrom : 
-                 configMapKeyRef :
-                    name : sb-config
-                    key : configFirstKey
+                 secretKeyRef :
+                    name : sb-secret
+                    key : FirstSecret
