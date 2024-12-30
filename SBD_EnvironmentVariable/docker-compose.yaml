@@ -4,5 +4,5 @@ services:
     image: kamalmukhija/sbd_environment_variable:latest
     ports:
       - "8080:8080"
-    environment:
-      - TEST_ENV_VAR=test123456  
+    env_file:
+      - env.production  
